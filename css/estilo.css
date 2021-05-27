@@ -1,0 +1,265 @@
+@font-face{
+    font-family:fonte;
+    src:url('fonte_padrão.ttf');
+   }
+   @font-face{
+    font-family:aubrey;
+    src:url('AUBREY1.TTF');
+   }
+  
+   body{
+       background-color: rgb(243, 239, 233);
+     
+   }
+   header{
+       margin-top:0px;
+       margin-left: 0px;
+       background: rgb(26, 37, 4);
+
+   }
+   header img{
+       background-repeat: repeat;
+       width: 100%;
+       height: 70%;
+       -webkit-mask-image: linear-gradient(to top, transparent , black);
+   }
+   header .titulo_principal{
+       color: rgb(255, 254, 240);
+       font-family:aubrey;
+       font-size:50px;
+       letter-spacing: 3px;
+       background: rgba(211, 161, 23, 0.5);
+   }
+   header .bt_inicio{
+       top: 40%;
+       position: absolute;
+       margin-left: 30%;
+       color: aliceblue;
+       letter-spacing: 3px;
+
+   }
+   .bt_inicio button{
+       width: 30%;
+       padding: 1%;
+       background: transparent;
+       border:white 2.5px solid;
+       color: white;
+       font-family:fonte;
+       font-size:15px;
+       letter-spacing: 3px;
+       -webkit-box-reflect: below 5px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+
+   }
+   .bt_vermais{
+       background: transparent;
+       border:white 2px solid;
+       color: white;
+       letter-spacing: 3px;
+       color: white;
+       font-family:fonte;
+       font-size:15px;
+       width: 50%;
+       margin-left: 25%;   
+   }
+   .bt_promo{
+       background: transparent;
+       border:none;
+       color: white;         
+       margin-left: 40%;
+       width: 20%;
+   }
+   .bt_promo:hover{
+       background: rgb(183, 184, 183);
+       border:none;
+       margin-left: 40%;
+       width: 20%;
+   }
+   .bt_enviarform{
+       background: transparent;
+       border:white 2px solid;
+       color: white;
+       letter-spacing: 3px;
+       color: white;
+       font-family:fonte;
+       font-size:20px;
+
+       }
+   nav ul li{
+       display: inline;
+       padding: 5%;
+       margin-left: 10%;
+       letter-spacing: 2px;
+   }
+   header nav ul li a{
+       position: absolute;
+       top: 5%;
+       text-decoration:none;
+       color: blanchedalmond;
+       font-family:fonte;
+   }
+   
+   #conteudo1,#destino{
+       background-color: rgb(242, 243, 233);
+       height: 400px;
+       padding:10%;            
+   }
+  
+   #conteudo1 p{
+       font-family:fonte;
+       font-size:20px ;
+       padding:10%;
+   }
+   .titulo_secao{
+       font-family:aubrey;
+       font-size: 40px;
+       margin-left: 40%;
+       letter-spacing: 2px;
+       color:rgba(56, 56, 47, 0.884);
+   }
+   #destino .card img{
+       width: 100%;
+       -webkit-mask-image: linear-gradient(to top, transparent , black);
+
+         }
+   #destino .card {
+       width: 20%;
+       height: 100%;
+       float: right;
+       margin:2%;
+       background-color: rgb(26, 37, 4);
+       box-shadow: rgb(173, 173, 173) 5px 10px 10px 10px;
+
+
+   }
+   #destino .card h3{
+       color:white;
+       font-family:aubrey;
+       letter-spacing: 2px;
+       margin-left: 5%;
+   }
+   #destino .card p{
+       font-family:fonte;
+       padding:10%;
+       color:white;
+   }
+   #promocoes{
+       background-color: rgb(242, 243, 233);
+       height: 600px;
+       padding:10%;
+       
+   }
+   #promocoes .card_promo{
+       width: 28%;
+       margin: 2.5%;
+       background:rgb(204, 204, 199);
+       float: left;
+       box-shadow: rgb(173, 173, 173) 5px 10px 10px 10px;
+
+   }
+   #promocoes .card_promo img{
+       width: 100%;
+
+   }
+   #promocoes .card_promo img:hover{
+       opacity: 50%;
+   }
+   #promocoes p{
+       font-family:fonte;
+       font-size:20px ;
+       color:rgb(8, 8, 8);
+       padding:5%;
+   }
+   #promocoes h3{
+       font-family:aubrey;
+       letter-spacing: 2px;
+       padding:5%;
+
+   }
+   #promocoes .preco{
+       font-family:aubrey;
+       letter-spacing: 2px;
+       color:white;
+       background:rgb(20, 20, 20);
+   }
+   .vietna{
+       height: 600px;
+       background-image: url('imagens/barcos.jpg');
+       background-attachment:fixed;
+   }
+   .vietna h1{
+       margin-left: 35%;
+       padding-top: 20%;
+       font-family:aubrey;
+       font-size: 100px;
+       color:white;
+
+   }
+   .veneza{
+       height: 600px;
+       background-image: url('imagens/venezagreen.jpg');
+       background-attachment:fixed;
+   }
+   .veneza h1{
+       margin-left: 35%;
+       padding-top: 20%;
+       font-family:aubrey;
+       font-size: 100px;
+       color:white;
+
+   }
+   .italia{
+       height: 600px;
+       background-image: url('imagens/italia.jpg');
+       background-attachment:fixed;
+   }
+   .italia h1{
+       margin-left: 35%;
+       padding-top: 20%;
+       font-family:aubrey;
+       font-size: 100px;
+       color:white;
+
+   }
+  
+   #div_formulario{
+       height: 400px;
+       padding:10%;
+       background:rgb(26, 37, 4);
+   }
+   #div_formulario form{
+       width: 60%;
+       margin-left:20%;
+       color:white;
+       align-items: center;
+   }
+   #div_formulario form p {
+       font-family:fonte;
+   }
+   #div_formulario form .caixa_emal{
+       background:rgb(26, 37, 4);
+       border:none;
+       border-bottom: 1px solid rgb(252, 250, 250);
+       width: 100%;
+       color: white;
+   }
+   
+   #div_formulario h1{
+       font-family:aubrey;
+       letter-spacing: 2px;
+   }
+   #div_formulario .mensagem{
+       width: 100%;
+       height:200px;
+       border-radius:5%;
+   }
+   .rodape{
+       height: 100px;
+       background:rgb(20, 20, 20);
+   }
+   .rodape p{
+       margin-top:0;
+       padding-top:2% ;
+       margin-left: 35%;
+       color:white;
+       font-family:fonte;
+   }
